@@ -15,16 +15,12 @@ define(function() {
 			this.removeAttribute('data-elemgetter');
 		});
 		
-		$(elems.button_calc).click(function() {
+		$(elems.button_calc).click(function(evt) {
+			evt.preventDefault();
 			var c = parseFloat(elems.textbox_c.value);
 			var p = parseFloat(elems.textbox_p.value)/100;
 			var n = parseFloat(elems.textbox_n.value);
 			onCalculate(c, p, n);
-			$(this).removeClass('pressed');
-		});
-		
-		$(elems.button_calc).mousedown(function() {
-			$(this).addClass('pressed');
 		});
 		
 		return {
