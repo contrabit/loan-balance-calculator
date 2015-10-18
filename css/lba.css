@@ -1,0 +1,114 @@
+body {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-color: #404040;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-size: 16px;
+}
+
+body {
+	background-image: -ms-linear-gradient(top, #222222 0%, #444444 50%, #222222 100%);
+	background-image: -moz-linear-gradient(top, #222222 0%, #444444 50%, #222222 100%);
+	background-image: -o-linear-gradient(top, #222222 0%, #444444 50%, #222222 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222222), color-stop(0.5, #444444), color-stop(1, #222222));
+	background-image: -webkit-linear-gradient(top, #222222 0%, #444444 50%, #222222 100%);
+	background-image: linear-gradient(to bottom, #222222 0%, #444444 50%, #222222 100%);
+}
+
+.block-gradient {
+	background-image: -ms-linear-gradient(top, #000000 -95%, #4E8C49 50%, #000000 195%);
+	background-image: -moz-linear-gradient(top, #000000 -95%, #4E8C49 50%, #000000 195%);
+	background-image: -o-linear-gradient(top, #000000 -95%, #4E8C49 50%, #000000 195%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-.95, #000000), color-stop(0.5, #4E8C49), color-stop(1.95, #000000));
+	background-image: -webkit-linear-gradient(top, #000000 -95%, #4E8C49 50%, #000000 195%);
+	background-image: linear-gradient(to bottom, #000000 -95%, #4E8C49 50%, #000000 195%);
+}
+
+
+
+.title {
+	margin: 12px 0px;
+	border: 3px solid black;
+	border-radius: 4px;
+	background-color: rgb(78, 140, 73);
+	
+	font-size: 18px;
+	padding-right: 22px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: right;
+}
+
+.main-div {
+	width: 980px;
+	height: 580px;
+	line-height: 33px;
+	margin: 0px auto;
+}
+
+.calc-frame {
+	margin: 12px 0px;
+	border: 3px solid black;
+	border-radius: 4px;
+	background-color: rgb(78, 140, 73);
+
+	padding: 10px 30px;
+}
+div.calc-frame label {
+	text-align: left;
+	width: 210px;
+	float: left;
+}
+
+div.calc-frame input.field {
+	float: left;
+	text-align: right;
+	margin: 6px 7px 0px;
+	width: 80px;
+}
+
+div.calc-frame span.unit {
+	text-align: left;
+	float: left;
+}
+
+div.calc-frame .left { 
+	position: relative; 
+	float: left;
+}
+div.calc-frame .middle { 
+	position: relative; 
+	float: left;
+	top: 26px;
+	left: 51px;
+}
+div.calc-frame .right {
+	position: relative;
+	float: right;
+	width: 290px;
+}
+
+.calc-frame .button {
+	width: 142px;
+	height: 51px;
+	background-image: url('../button.png');
+}
+
+.calc-frame .annuity {
+	font-weight: bold;
+	color: #FFFF00;
+}
+
+.pressed {
+	background-position: 0px -51px;
+}
+
+div.graph-frame {
+	margin: 12px 0px;
+	border: 3px solid black;
+	border-radius: 4px;
+	background-color: rgb(78, 140, 73);
+	height: 360px;
+}

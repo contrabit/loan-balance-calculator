@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Loan Balance Analyzer</title>
+		<meta name="description" content="Analyze how the balance of the loan changes over time.">
+		
+		<link rel="stylesheet" type="text/css" href="css/lba.css">
+		<link rel="stylesheet" type="text/css" href="css/graph.css">
+		<script type="text/javascript" src="3rdparty/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="3rdparty/handlebars-1.0.rc.1.js"></script>
+		<script type="text/javascript" src="3rdparty/d3.v2.min.js"></script>
+		<script data-main="scripts/main.js" src="scripts/require.js"></script>
+		
+		<script id="calc-frame" type="text/x-handlebars-template">
+			<div class="calc-frame block-gradient">
+				<div class="left">
+					<label>Total Amount</label>
+					<input class="field" data-elemgetter="textbox_c" value="{{c}}"/>
+					<span class="unit"></span>
+					<br />
+					<label>Annual Interest Rate</label>
+					<input class="field" data-elemgetter="textbox_p" value="{{p}}"/>
+					<span class="unit">%</span>
+					<br />
+					<label>Loan Term</label>
+					<input class="field" data-elemgetter="textbox_n" value="{{n}}"/>
+					<span class="unit">mo</span>
+					<br />
+				</div>
+				<div class="middle"> 
+					<div data-elemgetter="button_calc" class="button"></div>
+				</div>
+				<div class="right">
+					<br />
+					<div>Monthly Payment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="annuity" data-elemgetter="value_a">--</span>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</script>
+	</head>
+	
+	<body>
+		<div class="main-div">
+			<div class="title block-gradient">LOAN BALANCE ANALYZER</div>
+		</div>
+	</body>
+</html>

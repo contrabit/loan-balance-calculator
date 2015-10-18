@@ -1,0 +1,16 @@
++ on abscissa show months instead of days
+- on abscissa put the word "months"
++ make ordinate scale a little larger so curve can fit in clipping rectangle
+- remove "overflow: hidden" from body and html (so small rezolution guys can still see all)
+- add "overflow: hidden" somewhere on graph (we don't want scrollbar to appear for nothing)
+- format abscissa in right way (remove decimal points)
+- add validation for all input boxes: allow only decimal point, not comma
+- limit pan and zoom
+- fix scroll in firefox
+- when zoom preserve position of the point under the mouse
+
+BIG THINGS
+----------
+- show circle on hover over curve
+- add start date input box, and everything what that imply
+- add dates on abscissa

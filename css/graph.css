@@ -1,0 +1,10 @@
+.axis {
+	fill: none; 
+	stroke: #FFFFFF; 
+	shape-rendering: crispEdges;
+}
+
+.curve {
+	fill: none;
+	stroke: #FFFF00;
+}
