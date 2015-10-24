@@ -9,6 +9,13 @@ One can calculate the monthly payment, examine the graph which shows how the loa
 Try it out at [lukapopijac.com/loan-balance-calculator/](lukapopijac.com/loan-balance-calculator/).
 -->
 
+Dependencies
+------------
+ * [jQuery](https://jquery.com/)
+ * [Hanldebars.js](http://handlebarsjs.com/)
+ * [RequireJS](http://handlebarsjs.com/)
+ * [D3.js](http://d3js.org/)
+
 License
 -------
 This software is released under the MIT license.
