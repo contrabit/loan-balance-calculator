@@ -13,7 +13,7 @@ Dependencies
 ------------
  * [jQuery](https://jquery.com/)
  * [Hanldebars.js](http://handlebarsjs.com/)
- * [RequireJS](http://handlebarsjs.com/)
+ * [RequireJS](http://requirejs.org/)
  * [D3.js](http://d3js.org/)
 
 License
